@@ -13,6 +13,7 @@
 		2834B86D2220A0EF0005852D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2834B86C2220A0EF0005852D /* Assets.xcassets */; };
 		2834B8702220A0EF0005852D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2834B86E2220A0EF0005852D /* LaunchScreen.storyboard */; };
 		2834B87B2220A0EF0005852D /* SlidingWindowTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B87A2220A0EF0005852D /* SlidingWindowTableViewTests.swift */; };
+		2834B8862220A15D0005852D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B8852220A15D0005852D /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2834B8762220A0EF0005852D /* SlidingWindowTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingWindowTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2834B87A2220A0EF0005852D /* SlidingWindowTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingWindowTableViewTests.swift; sourceTree = "<group>"; };
 		2834B87C2220A0EF0005852D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2834B8852220A15D0005852D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				2834B86C2220A0EF0005852D /* Assets.xcassets */,
 				2834B86E2220A0EF0005852D /* LaunchScreen.storyboard */,
 				2834B8712220A0EF0005852D /* Info.plist */,
+				2834B8852220A15D0005852D /* Model.swift */,
 			);
 			path = SlidingWindowTableView;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2834B8862220A15D0005852D /* Model.swift in Sources */,
 				2834B8682220A0ED0005852D /* ViewController.swift in Sources */,
 				2834B8662220A0ED0005852D /* AppDelegate.swift in Sources */,
 			);
@@ -361,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCX3Z4NU85;
 				INFOPLIST_FILE = SlidingWindowTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCX3Z4NU85;
 				INFOPLIST_FILE = SlidingWindowTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
